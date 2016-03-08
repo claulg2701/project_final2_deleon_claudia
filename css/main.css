@@ -38,7 +38,10 @@ body {
     margin: 0 auto;
 }
 
-#main {
+/*  Main */
+
+#main,
+.sidebar {
     background-color: #ffffff;
     margin: 0.7em;
     padding: 1em 1.2em;
@@ -68,3 +71,5 @@ h2 {
 .description a {
     color: #e2a525;
 }
+
+/*  Sidebar */
