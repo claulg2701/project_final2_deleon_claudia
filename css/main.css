@@ -27,6 +27,7 @@ body {
 }
 
 #logo {
+    width: 50%;
     max-width: 200px;
     display: block;
     margin: 0 auto;
@@ -49,15 +50,18 @@ body {
 }
 
 h1 {
+    font-size: 1.7em;
     color: #b03635;
 }
 
 h2 {
+    font-size: 1.3em;
     color: #103853;
 }
 
 .description {
     line-height: 2em;
+    font-size: 1em;
 }
 
 .strong {
@@ -73,3 +77,43 @@ h2 {
 }
 
 /*  Sidebar */
+
+#cook-vector {
+    width: 100%;
+    max-width: 150px;
+    display: block;
+    margin: 0 auto 0.5em;
+}
+
+#buttons {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.button {
+    width: 100px;
+    padding: 10px 0;
+    display: block;
+    margin: 1em auto;
+    border: none;
+    background-color: #103853;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.button:first-child {
+    margin-top: 3em;
+}
+
+.button:hover {
+    margin-top: 1.5em;
+    background-color: #e2a252;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+#feature-dish {
+    max-width: 100%;
+}
