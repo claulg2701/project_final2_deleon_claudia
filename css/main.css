@@ -5,3 +5,29 @@ body {
     -o-background-size: cover;
     background-size: cover;
 }
+
+#navigation {
+    background-color: #ffffff;
+}
+
+#navigation a {
+    text-decoration: none;
+}
+
+#navigation ul {
+    display: none;
+}
+
+.fa-bars {
+    display: block;
+    font-size: 1.5em;
+    color: #b03635;
+    text-align: right;
+    padding: 1em 1em 0;
+}
+
+#logo {
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+}
