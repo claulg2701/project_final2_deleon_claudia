@@ -1,5 +1,5 @@
 body {
-    background: url("../img/cover.jpg") no-repeat top center fixed;
+    background: url("../img/cover.jpg") no-repeat top center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -30,4 +30,41 @@ body {
     max-width: 200px;
     display: block;
     margin: 0 auto;
+}
+
+.page {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+#main {
+    background-color: #ffffff;
+    margin: 0.7em;
+    padding: 1em 1.2em;
+    border: 3px solid #e2a252;
+}
+
+h1 {
+    color: #b03635;
+}
+
+h2 {
+    color: #103853;
+}
+
+.description {
+    line-height: 2em;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.description a {
+    color: #e2a525;
 }
