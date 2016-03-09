@@ -1,5 +1,5 @@
 body {
-    background: url("../img/cover.jpg") no-repeat top center;
+    background: url("../img/cover.jpg") no-repeat bottom right;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -41,7 +41,7 @@ body {
 
 /*  Main */
 
-#main,
+main,
 .sidebar {
     background-color: #ffffff;
     margin: 0.7em;
@@ -222,7 +222,7 @@ footer ul a.hv-ig {
 }
 
 @media all and (min-width: 1024px) {
-    #main {
+    main {
         width: calc(100% - 100% / 3 - 4.5em);
         float: left;
     }
@@ -234,6 +234,7 @@ footer ul a.hv-ig {
         display: block;
         content: "";
         clear: both;
+        padding-bottom: calc(100vh - 850px); /* to push footer down considering content height */
     }
     .sidebar article {
         float: none;
