@@ -141,20 +141,23 @@ footer ul li {
 }
 
 footer ul > * + * {
-    margin-left: 2em;
+    margin-left: 1.5em;
 }
 
-footer ul a:hover {
-    background-color: #ffffff;
+footer ul a {
     padding: 0.5em;
     border-radius: 60%;
 }
 
-footer ul a.hv-fb:hover {
+footer ul a:hover {
+    background-color: #ffffff;
+}
+
+footer ul a.hv-fb {
     padding: 0.5em 0.8em;
 }
 
-footer ul a.hv-ig:hover {
+footer ul a.hv-ig {
     padding: 0.5em 0.7em;
 }
 
