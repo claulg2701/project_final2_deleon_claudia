@@ -184,3 +184,43 @@ footer ul a.hv-ig {
         margin-top: 3em;
     }
 }
+
+@media all and (min-width: 650px) {
+    .sidebar article {
+        float: left;
+        width: 45%;
+    }
+    .sidebar article::after {
+        clear: none;
+    }
+    #cook-vector {
+        float: none;
+        width: 50%;
+        margin: 0 auto;
+    }
+    #buttons {
+        display: block;
+        content: "";
+        clear: both;
+        width: 100%;
+    }
+    .button:first-child {
+        margin-top: 0;
+    }
+    .button {
+        display: inline;
+    }
+    #feature-dish {
+        width: 55%;
+        float: right;
+    }
+    .sidebar::after {
+        display: block;
+        content: "";
+        clear: both;
+    }
+}
+
+@media all and (min-width: 1024px) {
+
+}
