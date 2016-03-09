@@ -108,10 +108,8 @@ h2 {
 }
 
 .button:hover {
-    margin-top: 1.5em;
     background-color: #e2a252;
     color: #ffffff;
-    text-transform: uppercase;
 }
 
 #feature-dish {
