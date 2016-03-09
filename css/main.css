@@ -78,11 +78,15 @@ h2 {
 
 /*  Sidebar */
 
-#cook-vector {
+#sidebar article {
     width: 100%;
-    max-width: 150px;
+    text-align: center;
+}
+
+#cook-vector {
+    width: 80%;
     display: block;
-    margin: 0 auto 0.5em;
+    margin: 0 auto 1em;
 }
 
 #buttons {
@@ -101,10 +105,6 @@ h2 {
     background-color: #103853;
     color: #ffffff;
     text-transform: uppercase;
-}
-
-.button:first-child {
-    margin-top: 3em;
 }
 
 .button:hover {
@@ -158,4 +158,26 @@ footer ul a.hv-fb:hover {
 
 footer ul a.hv-ig:hover {
     padding: 0.5em 0.7em;
+}
+
+/* Media Queries */
+
+@media all and (min-width: 320px) {
+
+    .sidebar article::after {
+        display: block;
+        content: "";
+        clear: both;
+    }
+    #cook-vector {
+        width: 50%;
+        float: left;
+    }
+    #buttons {
+        float: right;
+        width: 50%;
+    }
+    .button:first-child {
+        margin-top: 3em;
+    }
 }
