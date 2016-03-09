@@ -265,6 +265,12 @@ footer ul a.hv-ig {
     .fa-bars {
         display: none;
     }
+    #navigation {
+      background: -webkit-linear-gradient(#ffffff 67%, transparent 33%);
+      background: -o-linear-gradient(#ffffff 67%, transparent 33%);
+      background: -moz-linear-gradient(#ffffff 67%, transparent 33%);
+      background: linear-gradient(#ffffff 67%, transparent 33%);
+    }
     #nav-desktop {
         width: 100%;
         margin: 0 auto;
@@ -281,7 +287,7 @@ footer ul a.hv-ig {
         float: right;
         text-align: right;
         width: 50%;
-        top: calc(160px * 0.6);
+        top: calc(160px * 0.5);
         margin-right: 1em;
     }
     #navigation ul li {
