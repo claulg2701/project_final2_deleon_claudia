@@ -1,3 +1,20 @@
+@font-face {
+    font-family: Caviar Dreams;
+    src: url("../fonts/CaviarDreams.ttf");
+}
+@font-face {
+    font-family: Caviar Dreams Bold;
+    src: url("../fonts/Caviar_Dreams_Bold.ttf");
+}
+@font-face {
+    font-family: Caviar Dreams Bold Italic;
+    src: url("../fonts/CaviarDreams_BoldItalic.ttf");
+}
+@font-face {
+    font-family: Caviar Dreams Italic;
+    src: url("../fonts/CaviarDreams_Italic.ttf");
+}
+
 body {
     background: url("../img/cover.jpg") no-repeat bottom right;
     -webkit-background-size: cover;
