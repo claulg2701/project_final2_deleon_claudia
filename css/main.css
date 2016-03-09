@@ -238,7 +238,6 @@ footer ul a.hv-ig {
         display: block;
         content: "";
         clear: both;
-        padding-bottom: calc(100vh - 850px); /* to push footer down considering content height */
     }
     .sidebar article {
         float: none;
