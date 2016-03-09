@@ -222,5 +222,35 @@ footer ul a.hv-ig {
 }
 
 @media all and (min-width: 1024px) {
-
+    #main {
+        width: calc(100% - 100% / 3 - 4.5em);
+        float: left;
+    }
+    .sidebar {
+        width: calc(100% - 100% / 3 * 2 - 4em);
+        float: right;
+    }
+    .page::after {
+        display: block;
+        content: "";
+        clear: both;
+    }
+    .sidebar article {
+        float: none;
+        width: 100%;
+    }
+    #cook-vector {
+        width: 50%;
+    }
+    #buttons {
+        width: 100%;
+    }
+    #feature-dish {
+        width: 100%;
+        float: none;
+    }
+    .sidebar::after {
+        display: block;
+        clear: none;
+    }
 }
