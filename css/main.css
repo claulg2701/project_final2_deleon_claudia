@@ -1,18 +1,12 @@
 @font-face {
-    font-family: "Caviar Dreams";
-    src: url("../fonts/CaviarDreams.ttf");
+    font-family: 'CaviarDreams';
+    src: url("../fonts/CaviarDreams.ttf") format('truetype');
+    src: url("../fonts/CaviarDreams.woff") format('woff');
 }
 @font-face {
-    font-family: "Caviar Dreams Bold";
-    src: url("../fonts/Caviar_Dreams_Bold.ttf");
-}
-@font-face {
-    font-family: "Caviar Dreams Bold Italic";
-    src: url("../fonts/CaviarDreams_BoldItalic.ttf");
-}
-@font-face {
-    font-family: "Caviar Dreams Italic";
-    src: url("../fonts/CaviarDreams_Italic.ttf");
+    font-family: 'CaviarDreamsBold';
+    src: url("../fonts/Caviar_Dreams_Bold.ttf") format('truetype');
+    src: url("../fonts/Caviar_Dreams_Bold.woff") format('woff');
 }
 
 body {
@@ -36,7 +30,7 @@ body {
 
 #navigation a {
     text-decoration: none;
-    font-family: "Caviar Dreams Bold";
+    font-family: 'CaviarDreamsBold';
     text-transform: uppercase;
     font-size: 1.3em;
 }
@@ -91,7 +85,7 @@ main,
 
 h1,
 h2 {
-    font-family: "Caviar Dreams Bold";
+    font-family: 'CaviarDreamsBold';
 }
 
 h1 {
@@ -135,7 +129,7 @@ h2 {
 }
 
 button {
-    font-family: "Caviar Dreams";
+    font-family: 'CaviarDreams';
     text-transform: uppercase;
 }
 
