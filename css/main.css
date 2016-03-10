@@ -28,10 +28,10 @@ body {
     width: 100%;
     margin: 0 auto;
     background: #ffffff;
-    background: -webkit-linear-gradient(#ffffff 75%, transparent 25%);
-    background: -o-linear-gradient(#ffffff 75%, transparent 25%);
-    background: -moz-linear-gradient(#ffffff 75%, transparent 25%);
-    background: linear-gradient(#ffffff 75%, transparent 25%);
+    background: -webkit-linear-gradient(#ffffff 67%, transparent 33%);
+    background: -o-linear-gradient(#ffffff 67%, transparent 33%);
+    background: -moz-linear-gradient(#ffffff 67%, transparent 33%);
+    background: linear-gradient(#ffffff 67%, transparent 33%);
 }
 
 #navigation a {
@@ -49,12 +49,17 @@ body {
     display: none;
 }
 
-.fa-bars {
+#hamburger-menu {
+    width: 40px;
+    margin: 0.5em;
+    background: none;
+    border: none;
     display: block;
-    font-size: 1.5em;
+    font-size: 2em;
     color: #b03635;
-    text-align: right;
-    padding: 1em 1em 0;
+    position: absolute;
+    float: right;
+    right: 0;
 }
 
 #logo {
@@ -296,12 +301,6 @@ footer ul a.hv-ig {
     }
     .fa-bars {
         display: none;
-    }
-    #navigation {
-      background: -webkit-linear-gradient(#ffffff 67%, transparent 33%);
-      background: -o-linear-gradient(#ffffff 67%, transparent 33%);
-      background: -moz-linear-gradient(#ffffff 67%, transparent 33%);
-      background: linear-gradient(#ffffff 67%, transparent 33%);
     }
     #nav-desktop {
         width: 100%;
