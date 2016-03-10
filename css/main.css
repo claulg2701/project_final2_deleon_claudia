@@ -39,14 +39,18 @@ body {
     font-family: "Caviar Dreams Bold";
     text-transform: uppercase;
     font-size: 1.3em;
-    line-height: 1.5em;
 }
 
-#navigation ul {
+#nav-links {
     width: 100%;
     max-width: 1024px;
     margin: 0 auto;
-    display: none;
+    position: absolute;
+    transform: translateY(-250px);
+}
+
+#nav-links.open {
+    transform: translateY(-100px);
 }
 
 #hamburger-menu {
@@ -299,7 +303,12 @@ footer ul a.hv-ig {
         display: block;
         clear: none;
     }
-    .fa-bars {
+    .fa-bars,
+    .fa-times {
+        display: none;
+    }
+
+    #hamburger-menu {
         display: none;
     }
     #nav-desktop {
@@ -320,6 +329,9 @@ footer ul a.hv-ig {
         width: 50%;
         top: calc(160px * 0.45);
         margin-right: 1em;
+        transform: translate(0);
+        transition: none;
+        z-index: 1;
     }
     #navigation ul li {
         display: inline;
