@@ -40,8 +40,7 @@ window.onresize = function() {
         }
     }
     if ( mq.matches ) {
-        console.log( 'im bigger than 1024!' );
         myMenu.style.transform = 'translateY(0)';
         myMenu.style.transition = 'none';
     }
-}
+};
