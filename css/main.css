@@ -1,12 +1,12 @@
 @font-face {
     font-family: 'CaviarDreams';
-    src: url("../fonts/CaviarDreams.ttf") format('truetype');
-    src: url("../fonts/CaviarDreams.woff") format('woff');
+    src: url("../fonts/CaviarDreams.ttf") format("truetype");
+    src: url("../fonts/CaviarDreams.woff") format("woff");
 }
 @font-face {
     font-family: 'CaviarDreamsBold';
-    src: url("../fonts/Caviar_Dreams_Bold.ttf") format('truetype');
-    src: url("../fonts/Caviar_Dreams_Bold.woff") format('woff');
+    src: url("../fonts/Caviar_Dreams_Bold.ttf") format("truetype");
+    src: url("../fonts/Caviar_Dreams_Bold.woff") format("woff");
 }
 
 .visuallyhidden {
@@ -156,11 +156,6 @@ h2 {
     margin: 0 auto 1em;
 }
 
-button {
-    font-family: 'CaviarDreams';
-    text-transform: uppercase;
-}
-
 #buttons {
     display: block;
     width: 100%;
@@ -176,6 +171,7 @@ button {
     border: none;
     background-color: #103853;
     color: #ffffff;
+    font-family: 'CaviarDreams';
     text-transform: uppercase;
 }
 
