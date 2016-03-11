@@ -4,7 +4,7 @@ function loadMenu() {
     var logo = document.getElementById( 'logo' );
 
     if ( myMenu.className == 'open' ) {
-      myMenu.className = '';
+      myMenu.className = 'close';
       myMenu.style.transform = 'translateY(-350px)';
       myMenu.style.transition = 'transform 0.3s ease';
       openCloseMenu.className = 'fa fa-bars';
@@ -21,31 +21,27 @@ function loadMenu() {
 }
 
 window.onresize = function() {
-    var mq = window.matchMedia( '(min-device-width: 1024px)' );
+    var mq = window.matchMedia( '(min-width: 1024px)' );
     var myMenu = document.getElementById( 'nav-links' );
     var logo = document.getElementById( 'logo' );
+    var openCloseMenu = document.getElementById( 'menu-icon' );
+
+    if ( !mq.matches )
+    {
+        myMenu.style.zIndex = '0';
+        openCloseMenu.className = 'fa fa-bars';
+        logo.style.visibility = 'visible';
+        if ( myMenu.className === 'open' ) {
+            myMenu.style.transform = 'translateY(-351px)';
+            myMenu.className = 'close';
+        }
+        if ( myMenu.className === 'close' ) {
+            myMenu.style.transform = 'translateY(-350px)';
+        }
+    }
     if ( mq.matches ) {
-      console.log( 'if section' );
-      if ( myMenu.className === 'open' )
-      {
-          myMenu.style.transform = 'translateY(0)';
-          myMenu.style.zIndex = '0';
-          logo.style.visibility = 'visible';
-      }
-
-      if ( myMenu.className === 'close' || myMenu.className === '' )
-      {
-          myMenu.style.transform = 'translateY(-350)';
-          myMenu.style.zIndex = '0';
-          logo.style.visibility = 'visible';
-      }
-
-    } else {
-      if ( myMenu.className === 'open' )
-      {
-          myMenu.style.transform = 'translateY(-350)';
-          myMenu.style.zIndex = '0';
-          logo.style.visibility = 'visible';
-      }
+        console.log( 'im bigger than 1024!' );
+        myMenu.style.transform = 'translateY(0)';
+        myMenu.style.transition = 'none';
     }
 }
