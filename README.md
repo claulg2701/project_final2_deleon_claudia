@@ -17,8 +17,8 @@ This project is a style prototype of a French restaurant inspired by the movie R
 * Use height media queries: [SitePoint](http://www.sitepoint.com/5-uses-vertical-media-queries/)
 * Implement a dropdown menu for mobile devices: [Web Design Fundamentals Course from Udacity](https://www.youtube.com/watch?v=GKCVbekz_gk)
 * How to use media queries in Javascript: [SitePoint](http://www.sitepoint.com/javascript-media-queries/)
-* Create HTML5 document Outline [HTML5 Outliner Tool](https://gsnedders.html5.org/outliner/)
-* Test cross browser/platform [Browser Sync](https://www.browsersync.io/)
+* Create HTML5 document Outline: [HTML5 Outliner Tool](https://gsnedders.html5.org/outliner/)
+* Test cross browser/platform: [Browser Sync](https://www.browsersync.io/)
 
 ## Comments
 
