@@ -1,3 +1,4 @@
 *.psd
 style-tile.png
 *.ai
+.DS_Store
